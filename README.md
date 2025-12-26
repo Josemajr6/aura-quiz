@@ -1,47 +1,46 @@
 # AuraQuiz 🌍✨
 
+**Desafío global de banderas y capitales mundiales**
+
 AuraQuiz es una aplicación multiplataforma diseñada con **SwiftUI** que pone a prueba tus conocimientos de geografía. Desafía tu mente identificando banderas y capitales de todo el mundo a través de una interfaz moderna con estética neón.
 
 ## 🚀 Características
 * **Modos de Juego:** Banderas y Capitales.
-* **Niveles de Dificultad:** Fácil, Medio y Difícil (filtrado por códigos de país).
-* **Multiplataforma:** Optimizado para iOS y macOS.
-* **Biblioteca de Estudio:** Explora países organizados por continentes.
+* **Niveles de Dificultad:** Fácil, Medio y Difícil (basado en códigos de país).
+* **Multiplataforma:** Optimizado para iOS, macOS y visionOS.
+* **Biblioteca de Estudio:** Países organizados por continentes.
 
 ---
 
 ## 📸 Capturas de Pantalla
 
-### 🖥️ Pantalla de Inicio
-| Mac | iPhone |
+### 🖥️ Inicio y Configuración
+| Mac / iPhone (Inicio) | Selección de Dificultad |
 | :---: | :---: |
-| ![Inicio mac](capturas/inicio_mac.png) | ![Inicio iPhone](capturas/inicio_iphone.png) |
+| <img src="capturas/inicio_mac.png" width="250"> | <img src="capturas/dificultad.png" width="200"> |
 
-### ⚙️ Selección de Dificultad
-Elige el reto que mejor se adapte a tus conocimientos.
-![Dificultad](capturas/dificultad.png)
-
-### 🎮 El Juego
+### 🎮 Gameplay
 | Modo Banderas | Modo Capitales |
 | :---: | :---: |
-| ![Gameplay Banderas](capturas/juego_banderas.png) | ![Gameplay Capitales](capturas/juego_capitales.png) |
+| <img src="capturas/juego_banderas.png" width="200"> | <img src="capturas/juego_capitales.png" width="200"> |
 
 ### 📚 Biblioteca de Estudio
-Explora la información detallada de los países para mejorar tus puntuaciones.
-![Biblioteca de Estudio](capturas/estudio_paises.png)
+Aquí puedes repasar todos los países antes de jugar.
+<br>
+<img src="capturas/estudio_paises.png" width="350" alt="Biblioteca de Estudio">
 
 ---
 
 ## 🛠️ Tecnologías utilizadas
-* **Lenguaje:** Swift 5.0
-* **Framework:** SwiftUI
-* **Arquitectura:** MVVM con el nuevo sistema de `@Observable`.
-* **API:** [RestCountries API](https://restcountries.com/) para obtener datos actualizados.
+* **Lenguaje:** Swift 5.0.
+* **Framework:** SwiftUI.
+* **Arquitectura:** MVVM con `@Observable`.
+* **API:** [RestCountries API](https://restcountries.com/).
 
 ## 📥 Instalación
-1.  Clona este repositorio.
-2.  Abre `AuraQuiz.xcodeproj` en Xcode (versión 16+ recomendada).
-3.  Selecciona tu dispositivo (iPhone o Mac) y pulsa **Run (⌘R)**.
+1. Clona este repositorio.
+2. Abre `AuraQuiz.xcodeproj` en Xcode 16+.
+3. Selecciona tu dispositivo y pulsa **Run (⌘R)**.
 
 ---
-Desarrollado con ❤️ por José Manuel Jiménez
+Desarrollado con ❤️ por **José Manuel Jiménez**
